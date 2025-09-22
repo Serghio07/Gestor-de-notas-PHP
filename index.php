@@ -21,7 +21,8 @@ use App\NotesController;
 try {
     // Configuración de la base de datos
     $dbConfig = [
-        'host' => 'localhost',
+        'host' => 'db',
+        'port' => '3306',
         'dbname' => 'notes_app',
         'username' => 'notes_user',
         'password' => 'notes_password',
