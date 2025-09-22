@@ -1,0 +1,29 @@
+# Dependencias de Composer
+/vendor/
+composer.phar
+composer.lock
+
+# Archivos de configuración sensibles
+.env
+
+# Logs y cache
+*.log
+cache/
+temp/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+*.tmp
+*~
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de backup
+*.bak
+*.backup

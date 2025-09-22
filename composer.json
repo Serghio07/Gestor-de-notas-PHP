@@ -1,0 +1,17 @@
+{
+    "name": "mini-app/notes-manager",
+    "description": "Mini aplicación para gestionar notas personales",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
